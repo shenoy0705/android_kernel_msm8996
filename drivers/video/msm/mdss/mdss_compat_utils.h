@@ -498,7 +498,8 @@ struct mdp_input_layer32 {
 	uint16_t		z_order;
 	uint32_t		transp_mask;
 	uint32_t		bg_color;
-	enum mdss_mdp_blend_op		blend_op;
+	enum mdss_mdp_blend_op	blend_op;
+	enum mdp_color_space    color_space;
 	struct mdp_rect		src_rect;
 	struct mdp_rect		dst_rect;
 	compat_caddr_t		scale;
